@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
     <Title msg="La prima app con Vue CLI" />
+    <Hero heroTitle="My jumbotron" heroText="...awesome!" />
   </div>
 </template>
 
 <script>
 import Title from "./components/Title.vue";
+import Hero from "./components/Hero.vue";
 
 export default {
   name: "App",
   components: {
     Title,
+    Hero,
   },
 };
 </script>
